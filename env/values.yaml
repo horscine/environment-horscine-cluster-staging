@@ -18,8 +18,6 @@ expose:
     http: "true"
     tlsacme: "false"
     urltemplate: '{{.Service}}-{{.Namespace}}.{{.Domain}}'
-postgresql:
-  postgresqlDatabase: mydb
 jenkins:
   Servers:
     Global: {}
